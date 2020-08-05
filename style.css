@@ -23,8 +23,11 @@ nav{
 }
 
 ul{
-    
+    list-style: none;
 display: flex;
+align-items: center;
+height: 40px;
+justify-content: flex-end;
     
     
 }
@@ -39,11 +42,8 @@ a{
 
 }
 
-ul{
-    list-style: none;
-}
 
-button{
+.menu{
     display: none;
 } 
 
@@ -52,7 +52,7 @@ button{
       background-color: lightblue;
     }
 
-    button{
+    .menu{
         display: flex;
         
     }
@@ -64,6 +64,7 @@ button{
     .menu{
         display: flex;
         justify-content: flex-end;
+        
     }
   }
   
